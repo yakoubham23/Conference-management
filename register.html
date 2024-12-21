@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion de Conférence - Inscription</title>
+    <!-- Lien vers le fichier CSS dédié -->
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="events.html">Événements</a></li>
+                <li><a href="speakers.html">Conférenciers</a></li>
+                <li><a href="register.html">Inscription</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Bannière Héros -->
+    <section class="hero">
+        <h1>Inscription</h1>
+        <p>Participez à l'un de nos événements en remplissant ce formulaire.</p>
+    </section>
+
+    <!-- Section Formulaire d'Inscription -->
+    <section class="registration-form">
+        <div class="container">
+            <h2>Formulaire d'Inscription</h2>
+            <form action="#" method="POST">
+                <label for="name">Nom complet :</label>
+                <input type="text" id="name" name="name" placeholder="Votre nom complet" required>
+
+                <label for="email">Adresse e-mail :</label>
+                <input type="email" id="email" name="email" placeholder="Votre adresse e-mail" required>
+
+                <label for="phone">Numéro de téléphone :</label>
+                <input type="tel" id="phone" name="phone" placeholder="Votre numéro de téléphone" required>
+
+                <label for="event">Choisissez un événement :</label>
+                <select id="event" name="event" required>
+                    <option value="" disabled selected>Sélectionnez un événement</option>
+                    <option value="ai-conference">Conférence sur l'IA</option>
+                    <option value="healthcare-innovation">Innovations en Santé</option>
+                    <option value="sustainable-tech">Technologies Durables</option>
+                </select>
+
+                <label for="comments">Commentaires ou demandes spéciales :</label>
+                <textarea id="comments" name="comments" rows="5" placeholder="Vos commentaires ou demandes (facultatif)"></textarea>
+
+                <button type="submit" class="btn">S'inscrire</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Gestion de Conférence. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

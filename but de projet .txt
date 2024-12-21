@@ -1,0 +1,28 @@
+Description Générale :
+
+Ce projet a pour objectif de concevoir et de développer une application de gestion de conférences. Elle permet aux utilisateurs de s'inscrire et d'interagir dans le cadre de différentes conférences scientifiques ou professionnelles. Le système supporte plusieurs rôles utilisateurs, tels que Auteur, Évaluateur, ou Éditeur, en fonction de leurs interactions dans le cadre des conférences.
+Fonctionnalités Clés :
+
+    Gestion des Conférences :
+
+        Création, modification et suppression des conférences.
+        Consultation des détails des conférences (titre, description, date, lieu, etc.).
+
+
+    Rôles Utilisateurs :
+
+        Auteur : Propose des articles pour les conférences.
+        Évaluateur : Analyse et évalue les propositions soumises.
+        Éditeur : Valide les articles pour publication.
+
+
+    Gestion des Inscriptions :
+        Inscription des participants aux conférences.
+        Affichage de la liste des participants inscrits.
+
+
+    Gestion des Sessions :
+        Planification et gestion des sessions associées à une conférence.
+        
+    Interactions :
+        Les utilisateurs peuvent consulter les articles acceptés et interagir selon leurs rôles
